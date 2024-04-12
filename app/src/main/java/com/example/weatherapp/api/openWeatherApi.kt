@@ -4,7 +4,7 @@ import com.example.weatherapp.response.WeatherApiResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-private const val API_KEY = "6979fccbc1290dd0c4d8931f89740a4f"
+private const val API_KEY = "yourapikeyhere"
 
 interface openWeatherApi {
     @GET("data/2.5/forecast")
